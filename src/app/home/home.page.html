@@ -1,14 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
+<ion-header no-border>
+  <ion-toolbar color="secondary" [class.show-background]="showToolbar">
+    <ion-title [ngStyle]="">
+
+<!-- 
+        <ion-buttons slot="start">
+            <ion-button> -->
+              <ion-icon  name="menu"></ion-icon>
+            <!-- </ion-button>
+</ion-buttons> -->
+       
+
     </ion-title>
+ 
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="background" fullscreen >
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+
+HOME-PAGE
+<p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
 </ion-content>

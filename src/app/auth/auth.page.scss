@@ -1,0 +1,26 @@
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+    }
+ion-content.background{
+    // background-image : url('../../assets/images/top-bg.jpg');
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // padding: 10px;
+    // --ion-background-color:#d3e6e7; 
+    // --background: linear-gradient(197deg,#358cec 0%, #5b9ee8 13.5%, #83afdf 33.33%, #a7c3e1 100%) !important;
+    --background: #049fd8;
+    --color: #bce1f3;
+   
+
+    // --background: url('../../assets/images/top-bg.jpg');
+ 
+}
+ion-content {
+--ion-color-secondary:#bce1f3;
+}
+.center {
+text-align: center;
+margin-top:40%;
+font-size: 40px;
+}
