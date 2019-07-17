@@ -5,6 +5,12 @@
   "npmClient": "npm",
   "webDir": "www",
   "server": {
-    "url": "http://localhost:8100"
+    "url": "http://localhost:8100",
+    "originalUrl": "http://localhost:8100"
+  },
+  "android": {
+    "backgroundColor": "#ffffffff",
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true
   }
 }

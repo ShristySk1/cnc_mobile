@@ -6,5 +6,10 @@
   "webDir": "www",
   "server": {
     "url": "http://localhost:8100"
+  },
+  "android": {
+    "backgroundColor": "#ffffffff",
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true
   }
 }
