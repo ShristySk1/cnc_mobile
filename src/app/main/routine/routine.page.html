@@ -27,7 +27,7 @@
 </thead>
 <tbody>
 
-    <tr  *ngFor="let p of posts">
+    <tr  *ngFor="let p of posts;let i=index;">
 
     <th scope="row">{{p.days}}</th>
     <td >{{p.seven15eight05}}</td>
@@ -40,8 +40,25 @@
     <td >{{p.one5one50}}</td>
     <td >{{p.one50two45}}</td>
     <td >{{p.two45three35}}</td>
+    <td >{{p.roomno}}{{i+1}}</td>
+
+
+
+
 </tr>
+<br>
+
     </tbody>
   </table>
 </div>
+
+<!-- <ion-card>
+  <ion-list>
+      <ion-item href="#" class="activated"  *ngFor="let p of posts">
+          <ion-icon name="wifi" slot="start"></ion-icon>
+          <ion-label>{{p.roomno}}</ion-label>
+        </ion-item>
+
+  </ion-list>
+  </ion-card> -->
 </ion-content>

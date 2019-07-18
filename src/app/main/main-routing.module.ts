@@ -16,7 +16,7 @@ const routes: Routes = [
             loadChildren: './notice/notice.module#NoticePageModule'
           },
           {
-            path: 'detail/:noticeId',
+            path: 'detail/:listId',
             loadChildren: './notice/notice-detail/notice-detail.module#NoticeDetailPageModule'
           }
         ]
@@ -27,6 +27,10 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: './routine/routine.module#RoutinePageModule'
+          },
+          {
+             path: 'routine-detail',
+            loadChildren: './routine/routine-detail/routine-detail.module#RoutineDetailPageModule'
           }
         ]
       },
@@ -43,6 +47,8 @@ const routes: Routes = [
     redirectTo: '/main/tabs/routine',
     pathMatch: 'full'
 }
+
+
 
 
 ];

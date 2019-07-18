@@ -8,5 +8,18 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-card>
+    <ion-card-header>
+      <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+      <ion-card-title>{{notice.listTitle}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+        <ion-label>
+        <!-- <ion-label><h2>{{notice.listId}}</h2> -->
+          <p>{{notice.listNotice}}</p>    
+<hr><p>{{notice.createdDate}}</p>
+        </ion-label>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

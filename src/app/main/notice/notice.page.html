@@ -11,13 +11,14 @@
   <ion-row>
     <ion-col>
         <ion-list>
-            <ion-item  *ngFor="let notice of loadedpages" [routerLink]="['/','main','tabs','notice','detail',notice.id]" detail>
+            <!-- " [routerLink]="['/','main','tabs','notice','detail',notice.listId]" -->
+            <ion-item  *ngFor="let notice of loadedpages" (click)="onNoticeDetailPage(notice)"  detail>
               <ion-thumbnail slot="start">
                 <ion-img src="../../assets/images/notice.png"></ion-img>
               </ion-thumbnail>
 
-              <ion-label><h2>{{notice.title}}</h2>
-                <p>{{notice.description}}</p>    
+              <ion-label><h2>{{notice.listTitle}}</h2>
+                <p>{{notice.listNotice}}</p>    
 
               </ion-label>
             </ion-item>

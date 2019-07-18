@@ -1,6 +1,6 @@
 export class Notice {
-  constructor(public id: string,
-              public title: string,
-              public description: string
+  constructor(public listId: string,
+              public listNotice: string,
+              public listSem: string
             ) {}
 }
